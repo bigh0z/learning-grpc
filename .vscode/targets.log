@@ -1,0 +1,465 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Jun 11 13:39:22 2023
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# makefile (from 'Makefile', line 22)
+VERSION_AND_ARCH = $(shell uname -rm)
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 36)
+CLIENT_BIN = ${CLIENT_DIR}
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# makefile (from 'Makefile', line 4)
+CLIENT_DIR = client
+# environment
+LC_NAME = id_ID.UTF-8
+# environment
+LC_NUMERIC = id_ID.UTF-8
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = /home/bigh0z
+# environment
+GO_PATH = /home/bigh0z/go
+# environment
+WINDOWPATH = 2
+# environment
+LC_ADDRESS = id_ID.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+GOPATH = /home/bigh0z/go
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/bigh0z/go/learning-grpc
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'Makefile', line 41)
+project := greet calculator blog
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+OLDPWD = /home/bigh0z
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/bigh0z/.config/Code/CachedData/b380da4ef1ee00e224a15c1d4d9793e27c2b6302
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/bigh0z/go/learning-grpc
+# makefile (from 'Makefile', line 21)
+UNAME := Linux
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+ZSH = /home/bigh0z/.oh-my-zsh
+# environment
+VSCODE_PID = 5739
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 30)
+PACKAGE = $(shell head -1 go.mod | awk '{print $$2}')
+# environment
+SESSION_MANAGER = local/bigh0z-coms:@/tmp/.ICE-unix/2657,unix/bigh0z-coms:/tmp/.ICE-unix/2657
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'Makefile', line 3)
+SERVER_DIR = server
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile (from 'Makefile', line 19)
+SHELL := bash
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/bigh0z/.rbenv/shims:/home/bigh0z/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/bigh0z/go/bin
+# default
+MAKEFILES := 
+# environment
+LC_MONETARY = id_ID.UTF-8
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 35)
+SERVER_BIN = ${SERVER_DIR}
+# environment
+LC_TIME = id_ID.UTF-8
+# environment
+INVOCATION_ID = 5cbcdc73ac74418482f26e1b52d48447
+# makefile (from 'Makefile', line 32)
+HELP_CMD = grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+# environment
+USERNAME = bigh0z
+# makefile (from 'Makefile', line 31)
+CHECK_DIR_CMD = test -d $@ || (echo "\033[31mDirectory $@ doesn't exist\033[0m" && false)
+# environment
+LC_TELEPHONE = id_ID.UTF-8
+# automatic
+?F = $(notdir $?)
+# environment
+GTK_IM_MODULE = ibus
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
++F = $(notdir $+)
+# environment
+LESS = -R
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'Makefile', line 26)
+OS = linux ${VERSION_AND_ARCH}
+# environment
+LOGNAME = bigh0z
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# makefile (from 'Makefile', line 39)
+.DEFAULT_GOAL := help
+# makefile (from 'Makefile', line 34)
+RM_RF_CMD = ${RM_F_CMD} -r
+# environment
+SYSTEMD_EXEC_PID = 2684
+# environment
+DISPLAY = :1
+# environment
+USER = bigh0z
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 0
+# makefile (from 'Makefile', line 20)
+SHELL_VERSION = $(shell echo $$BASH_VERSION)
+# environment
+MANAGERPID = 2123
+# environment
+LC_MEASUREMENT = id_ID.UTF-8
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 5739
+# environment
+PAGER = less
+# environment
+_ = /usr/share/code/code
+# environment
+LC_PAPER = id_ID.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+JOURNAL_STREAM = 8:41029
+# environment
+GOMODCACHE = /home/bigh0z/go/pkg/mod
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/bigh0z
+# environment
+QT_IM_MODULE = ibus
+# makefile (from 'Makefile', line 1)
+BIN_DIR = bin
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-28863e6c-1.79-main.sock
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+RBENV_SHELL = zsh
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 2)
+PROTO_DIR = proto
+# environment
+XDG_MENU_PREFIX = gnome-
+# makefile (from 'Makefile', line 33)
+RM_F_CMD = rm -f
+# environment
+GDMSESSION = ubuntu
+# environment
+LC_IDENTIFICATION = id_ID.UTF-8
+# variable set hash-table stats:
+# Load=130/1024=13%, Rehash=0, Collisions=13/194=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66311, inode 131573): 9 files, no impossibilities.
+
+ 
+# 9 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+calculator:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 50):
+	@${CHECK_DIR_CMD}
+	protoc -I$@/${PROTO_DIR} --go_opt=module=${PACKAGE} --go_out=. --go-grpc_opt=module=${PACKAGE} --go-grpc_out=. $@/${PROTO_DIR}/*.proto
+	go build -o ${BIN_DIR}/$@/${SERVER_BIN} ./$@/${SERVER_DIR}
+	go build -o ${BIN_DIR}/$@/${CLIENT_BIN} ./$@/${CLIENT_DIR}
+
+clean_greet:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 66):
+	${RM_F_CMD} greet/${PROTO_DIR}/*.pb.go
+
+clean_blog:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 72):
+	${RM_F_CMD} blog/${PROTO_DIR}/*.pb.go
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-09 21:58:56.715974235
+#  File has been updated.
+#  Successfully updated.
+
+clean: clean_greet clean_calculator clean_blog
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 59):
+	${RM_F_CMD} ssl/*.crt
+	${RM_F_CMD} ssl/*.csr
+	${RM_F_CMD} ssl/*.key
+	${RM_F_CMD} ssl/*.pem
+	${RM_RF_CMD} ${BIN_DIR}
+
+blog:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 50):
+	@${CHECK_DIR_CMD}
+	protoc -I$@/${PROTO_DIR} --go_opt=module=${PACKAGE} --go_out=. --go-grpc_opt=module=${PACKAGE} --go-grpc_out=. $@/${PROTO_DIR}/*.proto
+	go build -o ${BIN_DIR}/$@/${SERVER_BIN} ./$@/${SERVER_DIR}
+	go build -o ${BIN_DIR}/$@/${CLIENT_BIN} ./$@/${CLIENT_DIR}
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: greet calculator blog
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/22=0%
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 88):
+	@${HELP_CMD}
+
+clean_calculator:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 69):
+	${RM_F_CMD} calculator/${PROTO_DIR}/*.pb.go
+	
+
+test: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 56):
+	go test ./...
+
+rebuild: clean all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+about:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 77):
+	@echo "OS: ${OS}"
+	@echo "Shell: ${SHELL} ${SHELL_VERSION}"
+	@echo "Protoc version: $(shell protoc --version)"
+	@echo "Go version: $(shell go version)"
+	@echo "Go package: ${PACKAGE}"
+	@echo "Openssl version: $(shell openssl version)"
+	@echo "BIN_DIR : ${BIN_DIR}"
+	@echo "CLIENT_BIN : ${CLIENT_BIN}"
+	@echo "SERVER_BIN : ${SERVER_BIN}"
+
+# 'override' directive
+greet: .SHELLSTATUS := 0
+greet:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := greet
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=9/32=28%, Rehash=0, Collisions=19/40=48%
+#  recipe to execute (from 'Makefile', line 50):
+	@${CHECK_DIR_CMD}
+	protoc -I$@/${PROTO_DIR} --go_opt=module=${PACKAGE} --go_out=. --go-grpc_opt=module=${PACKAGE} --go-grpc_out=. $@/${PROTO_DIR}/*.proto
+	go build -o ${BIN_DIR}/$@/${SERVER_BIN} ./$@/${SERVER_DIR}
+	go build -o ${BIN_DIR}/$@/${CLIENT_BIN} ./$@/${CLIENT_DIR}
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: greet blog calculator help
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=16/1024=2%, Rehash=0, Collisions=0/51=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 24 / storage = 195 B / avg = 8 B
+# current buf: size = 8162 B / used = 195 B / count = 24 / avg = 8 B
+
+# strcache performance: lookups = 64 / hit rate = 62%
+# hash-table stats:
+# Load=24/8192=0%, Rehash=0, Collisions=0/64=0%
+# Finished Make data base on Sun Jun 11 13:39:22 2023
+
+ 
