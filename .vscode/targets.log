@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jun 11 13:39:22 2023
+# Make data base, printed on Sun Jun 11 13:53:56 2023
 
 # Variables
 
@@ -95,6 +95,7 @@ MFLAGS = -pqrR
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # default
+ 
 .SHELLFLAGS := -c
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
@@ -109,7 +110,7 @@ MAKEFILE_LIST := Makefile
 # environment
 ZSH = /home/bigh0z/.oh-my-zsh
 # environment
-VSCODE_PID = 5739
+VSCODE_PID = 18845
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -217,7 +218,7 @@ MANAGERPID = 2123
 # environment
 LC_MEASUREMENT = id_ID.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 5739
+GIO_LAUNCHED_DESKTOP_FILE_PID = 18845
 # environment
 PAGER = less
 # environment
@@ -279,10 +280,9 @@ LC_IDENTIFICATION = id_ID.UTF-8
 
 # Directories
 
-# . (device 66311, inode 131573): 9 files, no impossibilities.
+# . (device 66311, inode 131573): 8 files, no impossibilities.
 
- 
-# 9 files, no impossibilities in 1 directories.
+# 8 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -415,6 +415,7 @@ greet:
 # @ := greet
 # automatic
 # * := 
+ 
 # automatic
 # < := 
 # automatic
@@ -457,9 +458,9 @@ greet:
 # strcache buffers: 1 (0) / strings = 24 / storage = 195 B / avg = 8 B
 # current buf: size = 8162 B / used = 195 B / count = 24 / avg = 8 B
 
-# strcache performance: lookups = 64 / hit rate = 62%
+# strcache performance: lookups = 63 / hit rate = 61%
 # hash-table stats:
-# Load=24/8192=0%, Rehash=0, Collisions=0/64=0%
-# Finished Make data base on Sun Jun 11 13:39:22 2023
+# Load=24/8192=0%, Rehash=0, Collisions=0/63=0%
+# Finished Make data base on Sun Jun 11 13:53:56 2023
 
  
